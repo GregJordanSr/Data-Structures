@@ -59,7 +59,8 @@ class DoublyLinkedList:
         # create new ListNode with value
         new_node = ListNode(value)
         # update pointer of new ListNode as "head"
-        new_node
+        new_node.next(value)
+        self.head = new_node
 
     """Removes the List's current head node, making the
     current head's next node the new head of the List.
@@ -101,6 +102,6 @@ class DoublyLinkedList:
         pass
         
     """Returns the highest value currently in the list"""
-    
+
     def get_max(self):
         pass
